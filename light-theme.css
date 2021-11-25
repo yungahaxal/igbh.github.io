@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    /* background: #00ecb9; */
+    background: rgb(211, 211, 211);
+    font-family: italic;
+    font-weight: 100;
+  }
+  
+  #clock {
+    background: peachpuff;
+    border-radius: 40px;
+  }
+  a{
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 40px;
+    color:#222;
+    background: #fff;
+    display: inline-block;
+    font-size: 35px;
+    font-style: italic;
+  }
+  a:hover {
+    background: peachpuff;
+    color: #333;
+    }
+  .clock-title {
+    /* color: #396; */
+    color: #222;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
+  }
+  
+  .clock {
+    font-family: italic;
+    color: #222;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 80px;
+  }
+  
+  .clock-number {
+    padding: 30px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .clock-time {
+    padding: 40px;
+    border-radius: 40px;
+    background: #fff;
+    display: inline-block;
+  }
+/*   
+  .clock-time:hover{
+    background: peachpuff;
+    color:#333;
+  } */
+  
+  .clock-text {
+    display: block;
+    padding-top: 5px;
+    font-size: 32px;
+  }
+  
+  .clock-dat {
+    color: #222;
+    font-size: 32px;
+    font-style: italic;
+  }
+  .birthday-message {
+    display: none;
+    font-size: 48px;
+    font-style: italic;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  @media screen and (max-width: 800px) {
+  body{
+    background: #fff;
+    
+  }
+  a{
+      background: peachpuff;
+  }
+  }
