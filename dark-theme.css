@@ -15,10 +15,7 @@ a{
   font-size: 35px;
   font-style: italic;
 }
-a:hover {
-background: peachpuff;
-color: #333;
-}
+
 #clock {
   background: #222;
   border-radius: 40px;
