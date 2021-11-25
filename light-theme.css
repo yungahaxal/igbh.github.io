@@ -20,10 +20,7 @@ body {
     font-size: 35px;
     font-style: italic;
   }
-  a:hover {
-    background: peachpuff;
-    color: #333;
-    }
+
   .clock-title {
     /* color: #396; */
     color: #222;
